@@ -1,4 +1,3 @@
-if (/zhangxinxu|localhost/.test(location.href)==false) { alert('html5Validate.js为外链JS资源，可以先下载再使用，页面即将跳转...');location.href = "http://www.zhangxinxu.com/"; }
 /*! jquery-html5Validate.js 基于HTML5表单验证的jQuery插件
  * 支持type="email", type="number", type="tel", type="url", type="zipcode", 以及多type, 如type="email|tel". 支持 step, min, max, required, pattern, multiple
  * 有4个自定义扩展属性 data-key, data-target, data-min, data-max
