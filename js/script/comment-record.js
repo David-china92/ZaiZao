@@ -1,4 +1,4 @@
-const request_url = 'http://39.96.38.111:8080/api/comment-records/publish';
+const request_url = 'http://localhost:8080/api/comment-records/publish';
 $("#comment-commit").on('click', function () {
     if ($.html5Validate.isAllpass($("#comment-form"))) {
         let data = {};
