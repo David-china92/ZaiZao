@@ -13,3 +13,6 @@ scp -r index/* root@82.156.43.29:/app/zaizao/web/index/
 
 4.如果有js或者不生效
 
+
+scp -r comment-record.js  root@82.156.43.29:/app/zaizao/web/index/js/script/comment-record.js
+
