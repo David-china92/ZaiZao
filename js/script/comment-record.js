@@ -1,4 +1,4 @@
-const request_url = 'http://www.onptw.com/app/api/comment-records/publish';
+const request_url = 'https://www.onptw.com/app/api/comment-records/publish';
 $("#comment-commit").on('click', function () {
     if ($.html5Validate.isAllpass($("#comment-form"))) {
         let data = {};
@@ -21,7 +21,7 @@ $("#comment-commit").on('click', function () {
             },
             error: function (data) {
                 let a = JSON.stringify(data);
-                console.log(data)
+                console.log(a)
             }
         });
     }
